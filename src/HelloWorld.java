@@ -5,7 +5,7 @@ public class HelloWorld {
         int myFavoriteNumber = 64;
         System.out.println(myFavoriteNumber);
 
-        String myString = 'C';
+        String myString = 3.14159;
         System.out.println(myString);
 
 
