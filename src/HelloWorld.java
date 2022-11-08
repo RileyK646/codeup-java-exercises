@@ -8,7 +8,7 @@ public class HelloWorld {
         String myString = "java drink";
         System.out.println(myString);
 
-        long myNumber;
+        long myNumber = 123L;
 
     }
 
