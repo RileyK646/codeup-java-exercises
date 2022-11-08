@@ -8,8 +8,13 @@ public class HelloWorld {
         String myString = "java drink";
         System.out.println(myString);
 
-        long myNumber = 123L;
+        float myNumber = 3.14f;
 
+        int x = 5;
+        System.out.println(++x);
+        System.out.println(x);
+
+        int class;
     }
 
 }
