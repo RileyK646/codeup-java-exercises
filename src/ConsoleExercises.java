@@ -56,4 +56,3 @@ public class ConsoleExercises {
         System.out.println("The area is " + (length * width));
     }
 }
-10
