@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67d3f5a-5010-4e24-bd09-09e0aa8e6f7b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConsoleExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsoleExercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ControlFlowExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControlFlowExercises.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667851489323</updated>
       <workItem from="1667851492606" duration="13277000" />
-      <workItem from="1668110359726" duration="3973000" />
+      <workItem from="1668110359726" duration="4321000" />
     </task>
     <servers />
   </component>
@@ -97,5 +95,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ControlFlowExercises.java</url>
+          <line>1</line>
+          <properties class="ControlFlowExercises" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
