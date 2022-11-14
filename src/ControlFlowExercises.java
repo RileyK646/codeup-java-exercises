@@ -5,15 +5,15 @@ public class ControlFlowExercises {
             System.out.println("i is " + i);
             i++;
         }*/
-        int i = 2;
+     /*   int i = 2;
         do {
            i = i*2;
             System.out.println("The number is " + i);
-        } while (i < 1000000);
+        } while (i < 1000000);*/
 
-     /*   for(int i = 0; i < 10; i += 1) {
+        for(int i = 2; i < 1000000; i *= 2) {
             System.out.println("i is " + i);
-        }*/
+        }
 
     /*    for(int i = 1; i <= 10; i++) { // <--+
             if(i % 2 == 1) { //              |
