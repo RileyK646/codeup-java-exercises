@@ -11,9 +11,9 @@ public class ControlFlowExercises {
             System.out.println("The number is " + i);
         } while (i < 1000000);*/
 
-        for(int i = 2; i < 1000000; i *= 2) {
+      /*  for(int i = 2; i < 1000000; i *= 2) {
             System.out.println("i is " + i);
-        }
+        }*/
 
     /*    for(int i = 1; i <= 10; i++) { // <--+
             if(i % 2 == 1) { //              |
@@ -21,5 +21,23 @@ public class ControlFlowExercises {
             }
             System.out.println(i);
         }*/
+
+        // FIZZ BUZZ
+           for(int i = 1; i <= 100; i++) { // <--+
+               if (i % 5 ==0 & i % 3 == 0) {
+                   System.out.println("FizzBuzz");
+                   continue;
+               }
+            else if(i % 3 == 0) { //
+                System.out.println("Fizz");//             |
+                continue; // ----------------+
+            }
+            else if (i % 5 == 0) {
+                System.out.println("Buzz");
+                continue;
+            }
+
+               System.out.println(i);
+        }
     }
 }
