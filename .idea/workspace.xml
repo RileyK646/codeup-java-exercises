@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67d3f5a-5010-4e24-bd09-09e0aa8e6f7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MethodsExercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConsoleExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsoleExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MethodsExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MethodsExercises.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +56,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
-      <module name="codeup-java-exercises" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MethodsExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MethodsExercises" />
       <module name="codeup-java-exercises" />
@@ -76,13 +70,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="codeup-java-exercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MethodsExercises" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.StringExercise" />
         <item itemvalue="Application.ControlFlowExercises" />
         <item itemvalue="Application.ConsoleExercises" />
-        <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667851489323</updated>
       <workItem from="1667851492606" duration="13277000" />
-      <workItem from="1668110359726" duration="12243000" />
+      <workItem from="1668110359726" duration="22461000" />
     </task>
     <servers />
   </component>
