@@ -20,7 +20,35 @@ public class Input {
             }return false;
     }
     public int getInt(int min, int max) {
-
-
+        System.out.printf("Please input a number between %d and %d", min, max);
+            int input = Integer.parseInt(scanner.nextLine());
+                    if (input > min && input < max) {
+                        return input;
+                    }
+                    else {
+                        System.out.println("That number is not within range");
+                    }
+                    return input;
+    }
+    public int getInt() {
+        System.out.println("Please enter a number");
+        int input = scanner.nextInt();
+        return input;
+    }
+    public double getDouble(double min, double max) {
+        System.out.printf("Please input a number between %f and %f ", min, max);
+        double input = scanner.nextDouble();
+        if (input > min && input < max) {
+            return input;
+        }
+        else {
+            System.out.println("That number is not within range");
+        }
+        return input;
+    }
+    public double getDouble(){
+        System.out.println("Input a double");
+        double input  = scanner.nextDouble();
+        return input;
     }
 }

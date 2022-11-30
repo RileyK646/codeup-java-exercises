@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67d3f5a-5010-4e24-bd09-09e0aa8e6f7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InputTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/util/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Input.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +120,7 @@
       <workItem from="1669821599847" duration="1028000" />
       <workItem from="1669822642729" duration="299000" />
       <workItem from="1669823297456" duration="4687000" />
-      <workItem from="1669828936280" duration="10726000" />
+      <workItem from="1669828936280" duration="13518000" />
     </task>
     <servers />
   </component>
