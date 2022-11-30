@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.Scanner;
 public class Bob {
-    public static void  main(String[] args) {
+   /* public static void  main(String[] args) {
         String cont;
         do {
             Scanner scanner = new Scanner(System.in);
@@ -24,4 +24,5 @@ public class Bob {
              cont = scanner.next();
         } while (cont.equalsIgnoreCase("y"));
     }
+}*/
 }
