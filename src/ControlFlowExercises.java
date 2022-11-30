@@ -45,12 +45,27 @@ public class ControlFlowExercises {
         System.out.print("What number would you like to go up to?: ");
         int userInput = Integer.parseInt(userinput.next());
 
+
         System.out.println("Here's your table!");
 
            int i = 0;
+        System.out.printf("%5s ","number |");
+        System.out.printf("%5s"," Squared |");
+        System.out.printf("%5s %n"," cubed");
+        System.out.printf("%7s ", "----- |").printf("%8s ", "----- |").printf("%8s %n ", "----- ");
         do {
            i++;
-            System.out.println(i);
+           int squared = (int) Math.pow(i,2);
+            int cubed = (int) Math.pow(i,3);
+            System.out.printf(" %d", i);
+            System.out.printf("%5s", " |");
+            System.out.printf("%5s"," ");
+            System.out.printf("%d", squared );
+            System.out.printf("%5s", "  |");
+            System.out.printf("%5s"," ");
+            System.out.printf("%d", cubed );
+
+            System.out.printf("%n","_____________________________");
         } while (i < userInput);
 
 
