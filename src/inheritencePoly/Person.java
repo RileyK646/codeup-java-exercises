@@ -8,7 +8,7 @@ public class Person {
         public Person(String name) {
             this.name = name;
         }
-            //Says hellp with constructor
+            //Says hello with constructor
         public void sayHello( ) {
             System.out.println("[Person Class] Hello from " + name + "!");
         }

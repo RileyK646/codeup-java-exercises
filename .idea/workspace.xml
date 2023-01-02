@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67d3f5a-5010-4e24-bd09-09e0aa8e6f7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArraysExercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inheritencePoly/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritencePoly/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/ArraysExercises.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -122,7 +125,15 @@
       <workItem from="1669822642729" duration="299000" />
       <workItem from="1669823297456" duration="4687000" />
       <workItem from="1669828936280" duration="14166000" />
-      <workItem from="1669907728162" duration="2725000" />
+      <workItem from="1669907728162" duration="3950000" />
+      <workItem from="1669931495741" duration="987000" />
+      <workItem from="1669933476061" duration="92000" />
+      <workItem from="1669935416543" duration="1260000" />
+      <workItem from="1670339919892" duration="2782000" />
+      <workItem from="1670348664132" duration="1800000" />
+      <workItem from="1670355951562" duration="128000" />
+      <workItem from="1671035598702" duration="1791000" />
+      <workItem from="1672627973501" duration="669000" />
     </task>
     <servers />
   </component>

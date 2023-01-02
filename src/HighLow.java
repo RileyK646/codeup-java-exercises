@@ -1,55 +1,40 @@
-/*
+import java.util.Random;
 import java.util.Scanner;
 
 public class HighLow {
-    public static void  main(String[] args) {
-        Scanner init = new Scanner(System.in);
-        System.out.println("Guess a number!");
-        Integer numGuess = init.nextInt();
-       */
-/* return numGuess;*//*
-
-
-
-    }
-
-  */
-/*  public static int ask() {
-
-    }*//*
-
-    public static int randomNumber() {
-        int max = 100;
-        int min = 1;
-        int range = max -min + 1;
-        int rand = 0;
-        for (int i = 0; i <1; i++) {
-            rand = (int) (Math.random() * range) + min;
-
+    public static void main(String[] args) {
+        // question 5
+        int answer, guess;
+        // maximum value is 100
+        final int MAX = 100;
+        // takes input using scanner
+        Scanner in2 = new Scanner(System.in);
+        // Random instance
+        Random rand = new Random();
+        boolean correct = false;
+        // correct answer
+        answer = rand.nextInt(MAX) + 1; // generating random number
+        // loop until the guess is correct
+        while (!correct) {
+            System.out.println(
+                    "Guess a number between 1 and 100: ");
+            // guess value
+            guess = in2.nextInt();
+            // if guess is greater than actual
+            if (guess > answer) {
+                System.out.println("Too high, try again");
+            }
+            // if guess is less than actual
+            else if (guess < answer) {
+                System.out.println("Too low, try again");
+            }
+            // guess is equal to actual value
+            else {
+                System.out.println(
+                        "Yes, you guessed the number.");
+                correct = true;
+            }
         }
-        return rand;
+        System.exit(0);
     }
-    public static String highLow() {
-       if (ask() < randomNumber()) {
-        */
-/*   System.out.println("this is your number " + ask() + " this is random " + randomNumber()); *//*
-
-           System.out.println("test Higher");
-           return highLow();
-
-        } else if ( ask() > randomNumber()) {
-        */
-/*   System.out.println("this is your number " + ask() + "this is random " + randomNumber()); *//*
-
-           System.out.println("lower test");
-           return highLow();
-        }
-        else if (ask() == randomNumber()) {
-           System.out.println("Good guess!");
-       }
-
-        return "Good job";
-    }
-
 }
-*/
