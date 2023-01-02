@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67d3f5a-5010-4e24-bd09-09e0aa8e6f7b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/shapes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/CircleApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritencePoly/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritencePoly/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArraysExercises">
+  <component name="RunManager" selected="Application.CircleApp">
     <configuration name="ArraysExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysExercises" />
       <module name="codeup-java-exercises" />
@@ -54,9 +55,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bob" />
+    <configuration name="CircleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shapes.CircleApp" />
       <module name="codeup-java-exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shapes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CircleApp" />
         <item itemvalue="Application.ArraysExercises" />
         <item itemvalue="Application.Person (1)" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.InputTest" />
-        <item itemvalue="Application.Bob" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +140,7 @@
       <workItem from="1670348664132" duration="1800000" />
       <workItem from="1670355951562" duration="128000" />
       <workItem from="1671035598702" duration="1791000" />
-      <workItem from="1672627973501" duration="669000" />
+      <workItem from="1672627973501" duration="1585000" />
     </task>
     <servers />
   </component>
@@ -150,5 +157,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/shapes/CircleApp.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
