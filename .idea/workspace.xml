@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67d3f5a-5010-4e24-bd09-09e0aa8e6f7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/shapes/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shapes/CircleApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ServerNmeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/movies/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/movies/MoviesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/movies/MoviesArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Measurable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Quadrilateral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +147,7 @@
       <workItem from="1670348664132" duration="1800000" />
       <workItem from="1670355951562" duration="128000" />
       <workItem from="1671035598702" duration="1791000" />
-      <workItem from="1672627973501" duration="1585000" />
+      <workItem from="1672627973501" duration="4129000" />
     </task>
     <servers />
   </component>
